@@ -7,7 +7,7 @@ namespace kpyp
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            new laba13().print();
+            new laba14().print();
             Console.ReadLine();
         }
     }
