@@ -99,10 +99,10 @@ namespace kpyp
                 } 
             }
             if (positive)
-            for (n = i; n < arr.Length; n++)
-            {
-                summ += arr[n];
-            }
+                for (n = i; n < arr.Length; n++)
+                {
+                    summ += arr[n];
+                }
             else { 
                 Console.WriteLine("Положительных чисел не найдено");
                 return 0;

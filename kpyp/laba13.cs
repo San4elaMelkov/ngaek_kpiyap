@@ -17,7 +17,7 @@ namespace kpyp
 
             Console.WriteLine("Метод Class1 экземпляра ");
             Class1 c1 = new Class1();
-            d = c1.Method2;
+            d += c1.Method2;
             Console.WriteLine("Введите число: ");
             k = int.Parse(Console.ReadLine());
             Console.WriteLine($"Ответ: {d(k)}");
