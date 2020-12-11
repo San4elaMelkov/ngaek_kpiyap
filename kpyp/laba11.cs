@@ -6,7 +6,6 @@ namespace kpyp
 {
     class laba11
     {
-<<<<<<< HEAD
         public static void print()
         {
             IMovable car = new Car();
@@ -15,7 +14,7 @@ namespace kpyp
             car.Move();
             Train train = new Train();
             Console.WriteLine(train.Name);
-            ((ITransport)train).DoorsEvent += () => Console.WriteLine("Двери открыты);
+            ((ITransport)train).DoorsEvent += () => Console.WriteLine("Двери открыты");
             train.Doors();
         }
     }
