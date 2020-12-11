@@ -7,7 +7,7 @@ namespace kpyp
     class laba13
     {
         delegate double MyDelegate(int i);
-        public void print()
+        public static void print()
         {
             Console.WriteLine("Статический метод Class1");
             MyDelegate d = Class1.Method1;

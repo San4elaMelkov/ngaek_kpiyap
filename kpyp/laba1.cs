@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kpyp
 {
-    class laba1
+    class static laba1
     {
         public void print()
         {

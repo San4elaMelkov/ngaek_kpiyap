@@ -19,7 +19,7 @@ namespace kpyp
             int m1 = n / 10 / 10 / 10 % 10;
             return m1 > m2 && m2 > m3 && m3 > m4;
         }
-        public void print()
+        public static void print()
         {
             Console.WriteLine("лаба 4");
             Console.WriteLine("Задание 1");

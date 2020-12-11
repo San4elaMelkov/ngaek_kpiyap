@@ -6,7 +6,7 @@ namespace kpyp
 {
     class laba12
     {
-        public void print()
+        public static void print()
         {
             try
             {

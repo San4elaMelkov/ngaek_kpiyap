@@ -6,7 +6,7 @@ namespace kpyp
     class laba14
     {
         delegate double MyDelegate(int i);
-        public void print()
+        public static void print()
         {
 
             Class14_2 d = new Class14_2();

@@ -8,7 +8,7 @@ namespace kpyp
 {
     class laba3
     {
-        public void print()
+        public static void print()
         {
             try
             {

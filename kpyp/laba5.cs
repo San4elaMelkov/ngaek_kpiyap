@@ -9,7 +9,7 @@ namespace kpyp
 {
     class laba5
     {
-        public void print()
+        public static void print()
         {
             
             try

@@ -6,7 +6,7 @@ namespace kpyp
 {
     class laba6
     {
-        public void print()
+        public static void print()
         {
             Console.WriteLine("Лаба 6");
             Console.WriteLine("Задание 1");

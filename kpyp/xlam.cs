@@ -6,7 +6,7 @@ namespace kpyp
 {
     class xlam
     {
-        public void print()
+        public static void print()
         {
             Console.WriteLine("Введите длину окружности");//ввывод в консоль
             double l = Convert.ToDouble(Console.ReadLine());//ввод с клавиатуры
