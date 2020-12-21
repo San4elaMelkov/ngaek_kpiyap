@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace kpyp
 {
-    class static laba1
+    class  laba1
     {
-        public void print()
+        public static void print()
         {
             Console.WriteLine("Лаба1");
             Console.WriteLine("Задание 1");

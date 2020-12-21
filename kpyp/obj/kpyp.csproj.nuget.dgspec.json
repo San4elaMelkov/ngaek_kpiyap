@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lroma\\source\\repos\\kpyp\\kpyp\\kpyp.csproj": {}
+    "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lroma\\source\\repos\\kpyp\\kpyp\\kpyp.csproj": {
+    "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lroma\\source\\repos\\kpyp\\kpyp\\kpyp.csproj",
+        "projectUniqueName": "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj",
         "projectName": "kpyp",
-        "projectPath": "C:\\Users\\lroma\\source\\repos\\kpyp\\kpyp\\kpyp.csproj",
-        "packagesPath": "C:\\Users\\lroma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lroma\\source\\repos\\kpyp\\kpyp\\obj\\",
+        "projectPath": "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj",
+        "packagesPath": "C:\\Users\\San4ela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lroma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\San4ela\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

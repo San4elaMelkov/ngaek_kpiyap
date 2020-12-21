@@ -11,3 +11,16 @@ C:\Users\lroma\source\repos\kpyp\kpyp\bin\Debug\netcoreapp3.1\kpyp.pdb
 C:\Users\lroma\source\repos\kpyp\kpyp\obj\Debug\netcoreapp3.1\kpyp.dll
 C:\Users\lroma\source\repos\kpyp\kpyp\obj\Debug\netcoreapp3.1\kpyp.pdb
 C:\Users\lroma\source\repos\kpyp\kpyp\obj\Debug\netcoreapp3.1\kpyp.genruntimeconfig.cache
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\obj\Debug\netcoreapp3.1\kpyp.csprojAssemblyReference.cache
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\obj\Debug\netcoreapp3.1\kpyp.AssemblyInfoInputs.cache
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\obj\Debug\netcoreapp3.1\kpyp.AssemblyInfo.cs
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\obj\Debug\netcoreapp3.1\kpyp.csproj.CoreCompileInputs.cache
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\obj\Debug\netcoreapp3.1\kpyp.dll
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\obj\Debug\netcoreapp3.1\kpyp.pdb
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\bin\Debug\netcoreapp3.1\kpyp.exe
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\bin\Debug\netcoreapp3.1\kpyp.deps.json
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\bin\Debug\netcoreapp3.1\kpyp.runtimeconfig.json
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\bin\Debug\netcoreapp3.1\kpyp.runtimeconfig.dev.json
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\bin\Debug\netcoreapp3.1\kpyp.dll
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\bin\Debug\netcoreapp3.1\kpyp.pdb
+C:\Users\San4ela\Source\Repos\ngaek_kpiyap\kpyp\obj\Debug\netcoreapp3.1\kpyp.genruntimeconfig.cache
