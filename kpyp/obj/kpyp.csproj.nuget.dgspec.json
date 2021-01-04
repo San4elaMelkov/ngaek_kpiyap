@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj": {}
+    "C:\\Users\\San4ela\\source\\repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj": {
+    "C:\\Users\\San4ela\\source\\repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj",
+        "projectUniqueName": "C:\\Users\\San4ela\\source\\repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj",
         "projectName": "kpyp",
-        "projectPath": "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj",
+        "projectPath": "C:\\Users\\San4ela\\source\\repos\\ngaek_kpiyap\\kpyp\\kpyp.csproj",
         "packagesPath": "C:\\Users\\San4ela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\San4ela\\Source\\Repos\\ngaek_kpiyap\\kpyp\\obj\\",
+        "outputPath": "C:\\Users\\San4ela\\source\\repos\\ngaek_kpiyap\\kpyp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\San4ela\\AppData\\Roaming\\NuGet\\NuGet.Config",

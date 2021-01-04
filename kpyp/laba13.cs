@@ -29,6 +29,7 @@ namespace kpyp
             k = int.Parse(Console.ReadLine());
             Console.WriteLine($"Ответ: {d(k)}");
 
+            //Console.WriteLine($"Метод {Class1.Method('2')}");
             Console.ReadLine();
         }
     }
@@ -45,6 +46,7 @@ namespace kpyp
         {
             return 2*i*2.7;
         }
+
     }
 
     class Class2
