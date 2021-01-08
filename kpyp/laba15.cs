@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -9,14 +10,34 @@ namespace kpyp
     {
         public static void print()
         {
+            string path = @"../../../laba15.txt";
+            List<string> str = new List<string>();
             List<Staf> stafs = new List<Staf>();
-            stafs.Add(new Staf("Коловратов", "Х-15", 7300));
-            stafs.Add(new Staf("Боброва", "Х-15", 25000));
-            stafs.Add(new Staf("Лопатко", "П-9", 15000));
-            stafs.Add(new Staf("Ленивцев", "Х-4", 5800));
-            stafs.Add(new Staf("Нечитайло", "Х-15", 3000));
-            stafs.Add(new Staf("Шорох", "Х-15", 10900));
-            int totalPay = 0;
+            try
+            {
+                using (StreamReader sr = new StreamReader(path, Encoding.Default))
+                {
+                    string line;
+                    while((line = sr.ReadLine()) != null)
+                    {
+                        string[] s = line.Split(' ');
+                        stafs.Add(new Staf(s[0], s[1], double.Parse(s[2])));
+                    }
+                    
+                }
+                Console.WriteLine("Файл прочитан успешно!!!");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                stafs.Add(new Staf("Боброва", "Х-15", 25000));
+                stafs.Add(new Staf("Лопатко", "П-9", 15000));
+                stafs.Add(new Staf("Ленивцев", "Х-4", 5800));
+                stafs.Add(new Staf("Нечитайло", "Х-15", 3000));
+                stafs.Add(new Staf("Шорох", "Х-15", 10900));
+            }
+            
+            
             var Staf_X_4 = from staf in stafs where staf.Otdel == "Х-4" select staf;
             var Staf_P_9 = from staf in stafs where staf.Otdel == "П-9" select staf;
             var Staf_X_15 = from staf in stafs where staf.Otdel == "Х-15" select staf;
@@ -26,7 +47,7 @@ namespace kpyp
             otdels[2].name = "Х-15";
             for (int i = 0; i < otdels.Length; i++)
             {
-                Console.WriteLine($"Введите зп для отдела {otdels[0].name}");
+                Console.WriteLine($"Введите зп для отдела {otdels[i].name}");
                 otdels[i].minPay = double.Parse(Console.ReadLine());
             }
             
