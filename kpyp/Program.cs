@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
 
 namespace kpyp
 {
+    
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            laba11.print();
-            Console.ReadLine();
+            laba19.print();
         }
     }
 }
