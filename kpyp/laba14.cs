@@ -38,6 +38,7 @@ namespace kpyp
         class Class2
         {
 
+            string name;
             public void Bar(int k)
             {
                 Console.WriteLine("Выполнился метод Bar класса 2");

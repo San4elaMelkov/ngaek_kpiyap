@@ -74,6 +74,7 @@ namespace kpyp
             }
         }
     }
+    
     class Learner
     {
         public string name { get; protected set; }
@@ -90,14 +91,14 @@ namespace kpyp
         public byte semester { get; private set; }
         public Student(string __name, int __year,string __group, byte __course, byte __semestr,byte __matem, byte __inform)
         {
-            name = __name;
-            year = __year;
-            group = __group;
-            course = __course;
-            semester = __semestr;
-            matem = __matem;
-            inform = __inform;
-            ball = (matem + inform) / 2;
+            this.name = __name;
+            this.year = __year;
+            this.group = __group;
+            this.course = __course;
+            this.semester = __semestr;
+            this.matem = __matem;
+            this.inform = __inform;
+            this.ball = (this.matem + this.inform) / 2;
         }
         public void Info()
         {
@@ -136,5 +137,6 @@ namespace kpyp
             Console.WriteLine();
         }
     }
+
 
 }

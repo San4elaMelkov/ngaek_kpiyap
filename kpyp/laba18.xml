@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student name="">
+    <name>Рома</name>
+    <surname>Винник</surname>
+    <date>30.02.2000</date>
+  </student>
+  <student name="">
+    <name>Рома</name>
+    <surname>Винник</surname>
+    <date>30.02.2000</date>
+  </student>
+  <student name="">
+    <name>Рома</name>
+    <surname>Винник</surname>
+    <date>30.02.2000</date>
+  </student>
+  <student name="">
+    <name>Рома</name>
+    <surname>Винник</surname>
+    <date>30.02.2000</date>
+  </student>
+  <student name="">
+    <name>ytt</name>
+    <surname>gtui</surname>
+    <date>34567</date>
+  </student>
+</students>
