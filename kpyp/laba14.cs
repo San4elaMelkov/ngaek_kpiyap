@@ -5,55 +5,73 @@ namespace kpyp
 
     class laba14
     {
-        delegate double MyDelegate(int i);
+        delegate void MyDelegate(int i);
         public static void print()
         {
-
-            Class14_2 d = new Class14_2();
-            d.Notify += DisplayMessage;
-            d.Start(30);
-            Console.WriteLine();
+            Class2 cls2 = new Class2();
+            cls2.Bar(7);
+            MyEvent e = new MyEvent();
+            Class1 cls1 = new Class1();
+         
+            MyDelegate deleg = cls1.Method2;
+            deleg += Class1.Method1;
+            e.myEvent += deleg;
+            e.OnMyEvent(43);
         }
-        private static void DisplayMessage(int k)
+
+        class Class1
         {
-            Console.WriteLine($"В метод передано {k}");
+
+            public static void Method1(int m)
+            {
+                Console.WriteLine("Выполнился метод 1");
+                Console.WriteLine(2 * m / (Math.Log(2)));
+            }
+
+            public void Method2(int i)
+            {
+                Console.WriteLine("Выполнился метод 2");
+                Console.WriteLine(2 * i * 2.7);
+
+            }
+        }
+        class Class2
+        {
+
+            public void Bar(int k)
+            {
+                Console.WriteLine("Выполнился метод Bar класса 2");
+
+                Console.WriteLine(Math.Abs(k - 10));
+            }
+        }
+        class MyEvent
+        {
+            private event MyDelegate _event;
+            public event MyDelegate myEvent
+            {
+                add
+                {
+                    _event = value;
+                }
+
+                remove
+                {
+                    _event = null;
+                }
+
+            }
+
+            public void OnMyEvent(int k)
+            {
+                _event(k);
+            }
         }
     }
 
-    class Class14_1
-    {
-        
-        public static void Method1(int m)
-        {
-            Console.WriteLine(2 * m / (Math.Log(2)));
-        }
 
-        public void Method2(int i)
-        {
-            Console.WriteLine(2 * i * 2.7);
-            
-        }
-    }
 
-    class Class14_2
-    {
-        public delegate void StartMethods(int k);
-        public event StartMethods Notify;
-        public void Start(int k)
-        {
-            Foobar(Bar,k);
-            Notify?.Invoke(k);
-            Foobar(Class14_1.Method1,k);
-            Class14_1 a = new Class14_1();
-            Foobar(a.Method2, k);
-        }
-        public void Foobar(StartMethods MyDelegate, int k)
-        {
-            MyDelegate(k);
-        }
-        public void Bar(int k)
-        {
-            Console.WriteLine(Math.Abs(k - 10)); 
-        }
-    }
+
+
+
 }
