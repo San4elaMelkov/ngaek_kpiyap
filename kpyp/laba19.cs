@@ -8,24 +8,35 @@ namespace kpyp
     class laba19
     {
         public static int size = new Random().Next(3, 10);
+        
         static object locker = new object();
         public static void print()
         {
-
+            Console.WriteLine($"Создано поле размером {size} На {size}");
             List<Roma> barans = Generator();
             Random rnd = new Random();
             Roma volk = new Roma(rnd.Next(size), rnd.Next(size),"Волк");
             Thread myThread;
-            foreach (Roma baran in barans)
-            {
-                myThread = new Thread(baran.Move);
-                myThread.Start();
-            }
-            myThread = new Thread(volk.Move);
-            myThread.Start();
             Check check = new Check();
-            barans = check.CollisionBaran(barans);
-            barans = check.CollisionWolf(volk, barans);
+            while (true)
+            {
+                foreach (Roma baran in barans)
+                {
+                    myThread = new Thread(baran.Move);
+                    myThread.Start();
+                }
+                myThread = new Thread(volk.Move);
+                myThread.Start();
+
+                barans = check.CollisionBaran(barans);
+                barans = check.CollisionWolf(volk, barans);
+                if (barans.Count < 3)
+                {
+                    Console.WriteLine($"Осталось {barans.Count}. Игра окончена");
+                    break;
+                }
+            }
+            
         }
         private static List<Roma> Generator()
         {
@@ -44,11 +55,12 @@ namespace kpyp
             {
                 lock (locker)
                 {
+                    Console.WriteLine("Провера овец");
                     List<Roma> temp = barans;
                     int i, j;
                     for (i = 0; i < barans.Count; i++)
                     {
-                        for (j = i; j < barans.Count && i != j; j++)
+                        for (j = i+1; j < barans.Count; j++)
                         {
                             if (barans[i].X == barans[j].X && barans[i].Y == barans[j].Y)
                             {
@@ -58,6 +70,7 @@ namespace kpyp
                             }
                         }
                     }
+                    //Thread.Sleep(500);
                     return temp;
                 }
             }
@@ -65,14 +78,18 @@ namespace kpyp
             {
                 lock (locker)
                 {
-                    foreach (Roma baran in barans)
+                    Console.WriteLine("Провера волка и овец");
+                    int i;
+                    for ( i = 0; i < barans.Count; i++)
                     {
-                        if (wolf.X == baran.X && wolf.Y == baran.Y)
+                        
+                        if (wolf.X == barans[i].X && wolf.Y == barans[i].Y)
                         {
-                            barans.Remove(baran);
+                            barans.Remove(barans[i]);
                             Console.WriteLine($"Волк сьел овцу, теперь их осталось {barans.Count}шт");
                         }
                     }
+                    Thread.Sleep(300);
                     return barans;
                 }
             }
@@ -91,7 +108,7 @@ namespace kpyp
                     //проверка X
                     if (this.X + difа > size)
                         this.X += rnd.Next(-1, 0);
-                    else if (this.X + difа < size)
+                    else if (this.X + difа < 0)
                         this.X += rnd.Next(0, 1);
                     else
                         this.X += difа;
@@ -100,10 +117,11 @@ namespace kpyp
                     difа = rnd.Next(-1, 1);
                     if (this.Y + difа > size)
                         this.Y += rnd.Next(-1, 0);
-                    else if (this.Y + difа < size)
+                    else if (this.Y + difа < 0)
                         this.Y += rnd.Next(0, 1);
                     else
                         this.Y += difа;
+                    Console.WriteLine("Выполнился метод Move");
                 }
             }
             public Roma(int x= 0, int y=0, string name = "Овца")

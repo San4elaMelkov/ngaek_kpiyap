@@ -1,0 +1,12 @@
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\bin\Debug\kpyp_WF.exe.config
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\bin\Debug\kpyp_WF.exe
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\bin\Debug\kpyp_WF.pdb
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.csprojAssemblyReference.cache
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.laba20.resources
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.laba21.resources
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.Properties.Resources.resources
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.csproj.GenerateResource.cache
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.csproj.CoreCompileInputs.cache
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.exe
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.pdb
+C:\Users\San4eloXyuDro4elo\Source\Repos\ngaek_kpiyap\kpyp_WF\obj\Debug\kpyp_WF.frmContainer.resources

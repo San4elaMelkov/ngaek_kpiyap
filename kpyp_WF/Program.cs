@@ -16,7 +16,7 @@ namespace kpyp_WF
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new laba20());
+            Application.Run(new frmContainer());
         }
     }
 }

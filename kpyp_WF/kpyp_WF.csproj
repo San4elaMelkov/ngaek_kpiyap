@@ -52,10 +52,34 @@
     <Compile Include="laba20.Designer.cs">
       <DependentUpon>laba20.cs</DependentUpon>
     </Compile>
+    <Compile Include="laba21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laba21.Designer.cs">
+      <DependentUpon>laba21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="laba22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laba22.Designer.cs">
+      <DependentUpon>laba22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="laba22_child.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laba22_child.Designer.cs">
+      <DependentUpon>laba22_child.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="laba20.resx">
       <DependentUpon>laba20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laba21.resx">
+      <DependentUpon>laba21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laba22.resx">
+      <DependentUpon>laba22.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
